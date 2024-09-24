@@ -15,16 +15,17 @@
                 <h4 class="logo">
                     Rolling
                 </h4>
-                    <input placeholder="search rolling" type="text" class="search">
-                    <div class="menu">
-                        <a href="">Explore</a>
-                        <a href="">Activity</a>
-                        <a href="">Feed</a>
-                        <a href="">Bids</a>
-                    </div>
-                    <img src="./img/icon.svg" alt="" class="icon">
-                    <button class="btn">Connect wallet</button>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png" alt="burger" class="burger">
+                <input placeholder="search rolling" type="text" class="search">
+                <div class="menu">
+                    <a href="">Explore</a>
+                    <a href="">Activity</a>
+                    <a href="">Feed</a>
+                    <a href="">Bids</a>
+                </div>
+                <img src="./img/icon.svg" alt="" class="icon">
+                <button id="open-btn" class="btn">Connect wallet</button>
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png"
+                    alt="burger" class="burger">
             </nav>
         </div>
     </header>
@@ -35,15 +36,44 @@
                 <img src="./img/hero__img.jpg" alt="" class="hero__img">
 
                 <div class="hero__box">
-                <h1>The circle's <br> pristine <br> bcleanliness</h1>
-                <h5>🩻 Alkash Valera</h5>
-                <img src="./img/hero__text.png" alt="">
-                <button>Place a bid</button>
-                <a href="">View Artwork</a>
-            </div>
+                    <h1>The circle's <br> pristine <br> bcleanliness</h1>
+                    <h5>🩻 Alkash Valera</h5>
+                    <img src="./img/hero__text.png" alt="">
+                    <button>Place a bid</button>
+                    <a href="">View Artwork</a>
+                </div>
             </div>
         </div>
     </section>
+
+    <section class="liveauc">
+        <div class="container">
+            <div class="cards3">
+                <h3>Live auctions 🔥 </h3>
+                <div class="card">
+                    <img src="./img/NFTImg.jpg" alt="">
+                    <h2>3D Soft Curves</h2>
+                    <img src="🩻" alt="">
+                    <p></p>
+                    <h3></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="modal" id="modal">
+        <div class="modal__box">
+            <h6 id="modal__close" class="modal__closer">x</h6>
+            <h2>свяжитесь с нами</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ab, veniam.</p>
+            <form id="telegramForm" action="">
+                <input id="name" placeholder="Ваше имя" type="text">
+                <input id="phone" placeholder="Ваш номер телефона" type="text">
+                <button class="btn">Отправить Заявку</button>
+            </form>
+            <h4 id="thanks"></h4>
+        </div>
+    </div>
 
     <script src="./script.js"></script>
 </body>
